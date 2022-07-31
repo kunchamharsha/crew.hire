@@ -32,3 +32,4 @@ class User(models.Model):
     insta_url = models.CharField(max_length=200, blank=True, null=True)
     fb_url = models.CharField(max_length=200, blank=True, null=True)
     password = models.CharField(max_length=200)
+    description = models.TextField()
