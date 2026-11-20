@@ -1,7 +1,7 @@
 from django.db import models
 
 class User(models.Model):
-    id = models.BigAutoField(primary_key=True, max_length=60)
+    id = models.BigAutoField(primary_key=True)
     username = models.CharField(unique=True, max_length=60, blank=True, null=True)
     firstname = models.CharField(max_length=100, blank=True, null=True)
     fullname = models.CharField(max_length=200, blank=True, null=True)
