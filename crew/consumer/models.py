@@ -1,2 +1,2 @@
-from model_data import *
+from .models_data import *
 # Create your models here.
